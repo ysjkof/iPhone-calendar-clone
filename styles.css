@@ -13,8 +13,3 @@ body {
   align-items: center;
   height: 100vh;
 }
-
-body > div {
-  border: var(--border-3);
-  margin: auto;
-}

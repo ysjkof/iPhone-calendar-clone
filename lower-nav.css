@@ -1,11 +1,10 @@
 .lower-nav {
-  margin-top: auto;
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 50px;
+  width: 950px;
   background-color: var(--main-dates__bg-color);
-}
-
-.lower-nav__column {
 }

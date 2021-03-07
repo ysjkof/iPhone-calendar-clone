@@ -4,7 +4,6 @@ main {
   flex-direction: column;
   padding: 0 25px;
   margin-top: 25px;
-  height: 85vh;
 }
 
 .main-calendar {
