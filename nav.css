@@ -1,0 +1,26 @@
+nav {
+  width: var(--window-width);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  height: 10vh;
+}
+
+.nav-column {
+  font-size: var(--font-size__title1);
+}
+.nav-column:first-child span {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.nav-column:first-child span > span:first-child {
+  font-size: var(--font-size__nav-icon);
+}
+
+.nav-column:last-child span {
+  margin-left: 55px;
+  font-size: var(--font-size__nav-icon);
+}

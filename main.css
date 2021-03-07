@@ -1,0 +1,42 @@
+main {
+  width: var(--window-width);
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  margin-top: 25px;
+  height: 85vh;
+}
+
+.main-calendar {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  */
+.main-days {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  border-bottom: var(--border-3);
+}
+
+/*  */
+.main-dates {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-dates__bg-color);
+}
+
+.main-dates__row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: var(--border-1);
+}
+
+.main-dates__row-column {
+  margin: 0 auto;
+  width: 20px;
+  text-align: center;
+}
