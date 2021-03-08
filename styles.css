@@ -11,7 +11,7 @@
 @media screen and (max-width: 1000px) {
   nav,
   main,
-  lower-nav {
+  .lower-nav {
     width: 100vw;
   }
 }
