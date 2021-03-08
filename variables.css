@@ -1,7 +1,6 @@
 :root {
-  --horizontal-space: 25px;
-  --font-size__nav-icon: 36px;
-  --font-size__title1: 22px;
+  --font-size__nav-icon: 3rem;
+  --font-size__title1: 2rem;
   --font-size__title2: 17px;
   --font-size__title3: 15px;
   --window-width: 1000px;

@@ -5,6 +5,6 @@
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  width: 950px;
+  width: var(--window-width);
   background-color: var(--main-dates__bg-color);
 }

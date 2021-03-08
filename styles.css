@@ -7,9 +7,17 @@
 @import "daily-list.css";
 @import "lower-nav.css";
 
+/* */
+@media screen and (max-width: 1000px) {
+  nav,
+  main,
+  lower-nav {
+    width: 100vw;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 }

@@ -2,7 +2,6 @@ nav {
   width: var(--window-width);
   display: flex;
   justify-content: space-between;
-  padding: 0 25px;
   margin-top: 25px;
   margin-bottom: 10px;
 }
