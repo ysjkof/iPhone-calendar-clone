@@ -8,6 +8,7 @@ main {
 .main-calendar {
   display: flex;
   flex-direction: column;
+  font-size: var(--font-size__calendar);
 }
 
 /*  */
